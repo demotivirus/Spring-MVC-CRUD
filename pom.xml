@@ -7,7 +7,7 @@
   <groupId>Spring-MVC-CRUD</groupId>
   <artifactId>Spring-MVC-CRUD</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <properties>
     <spring.version>5.1.5.RELEASE</spring.version>
@@ -43,6 +43,17 @@
       <version>8.0.15</version>
     </dependency>
 
+      <dependency>
+          <groupId>javaee</groupId>
+          <artifactId>javaee-api</artifactId>
+          <version>5</version>
+      </dependency>
+
+      <dependency>
+          <groupId>javax</groupId>
+          <artifactId>javaee-web-api</artifactId>
+          <version>6.0</version>
+      </dependency>
 
   </dependencies>
 
